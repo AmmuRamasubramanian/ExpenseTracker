@@ -54,7 +54,6 @@ export default function App() {
  
   return (
     <>
-    <StatusBar style='auto'>
     <ExpenseProvider>
     <NavigationContainer>
       <bottomTab.Navigator screenOptions={{
@@ -78,7 +77,6 @@ export default function App() {
       </bottomTab.Navigator>
     </NavigationContainer>
     </ExpenseProvider>
-    </StatusBar>
     </>
   );
 }
